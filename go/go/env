@@ -1,0 +1,6 @@
+GO111MODULE=on
+GOBIN=/Users/seiji/.local/share/go/bin
+GOCACHE=/Users/seiji/.cache/go_build
+GOENV=/Users/seiji/.config/go/env
+GOMODCACHE=/Users/seiji/.cache/go_mod
+GOPATH=/Users/seiji/.local/share/go
