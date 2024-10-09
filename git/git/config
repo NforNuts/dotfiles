@@ -6,6 +6,7 @@
   b = branch
   s = status
   c = commit
+  l = log
   co = checkout
 
 [difftool "sourcetree"]
