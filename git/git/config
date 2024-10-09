@@ -7,7 +7,6 @@
   s = status
   c = commit
   co = checkout
-  unstage = rm --cached
 
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
