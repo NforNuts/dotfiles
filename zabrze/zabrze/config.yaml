@@ -37,7 +37,7 @@ abbrevs:
 
   - name: git log
     abbr: gl
-    snippet: got log
+    snippet: git log
 
   - name: zi
     abbr: i
