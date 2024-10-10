@@ -31,6 +31,14 @@ abbrevs:
     abbr: tkss
     snippet: tmux kill-session
 
+  - name: git status
+    abbr: gs
+    snippet: git status
+
+  - name: git log
+    abbr: gl
+    snippet: got log
+
   - name: zi
     abbr: i
     snippet: zi
