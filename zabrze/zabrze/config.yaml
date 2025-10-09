@@ -1,0 +1,52 @@
+abbrevs:
+  - name: ls
+    abbr: ls
+    snippet: eza --git --icons -F
+
+  - name: l
+    abbr: l
+    snippet: eza --git --icons -F -lh
+
+  - name: ll
+    abbr: ll
+    snippet: eza --git --icons -F -lh
+
+  - name: la
+    abbr: la
+    snippet: eza --git --icons -F -lha
+
+  - name: tree
+    abbr: tree
+    snippet: eza -T -F --git-ignore
+
+  - name: git
+    abbr: g
+    snippet: git
+
+  - name: git status
+    abbr: gs
+    snippet: git status
+
+  - name: git log --graph --oneline
+    abbr: gl
+    snippet: git log --graph --oneline
+
+  - name: zi
+    abbr: i
+    snippet: zi
+
+  - name: cat
+    abbr: cat
+    snippet: bat
+
+  - name: yazi
+    abbr: yz
+    snippet: yazi
+
+  - name: nvim
+    abbr: v
+    snippet: nvim
+
+  - name: clear
+    abbr: c
+    snippet: clear

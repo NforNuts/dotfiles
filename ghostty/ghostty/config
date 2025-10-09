@@ -1,0 +1,32 @@
+theme = Catppuccin Mocha
+
+macos-option-as-alt = true
+
+confirm-close-surface = false
+
+cursor-style = block
+cursor-style-blink = false
+cursor-invert-fg-bg = true
+shell-integration-features = no-cursor
+
+window-width = 9999
+window-height = 9999
+window-save-state = always
+#window-decoration = false
+
+macos-titlebar-style = hidden
+
+font-size = 15
+font-family = UDEV Gothic 35NF
+
+font-feature = -calt
+font-feature = -liga
+font-feature = -dlig
+
+bold-is-bright = true
+
+## sends TAB
+keybind = ctrl+i=text:\x09
+
+## sends ESC
+keybind = ctrl+[=text:\x1b

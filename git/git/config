@@ -1,0 +1,58 @@
+[user]
+	name = Seiji HIRAI
+	email = nfornuts@gmail.com
+
+[init]
+    defaultBranch = main
+
+[core]
+  pager = delta
+
+[include]
+  path = ~/.config/delta/themes/catppuccin.gitconfig
+
+[delta]
+  keep-plus-minus-markers = true
+  line-numbers = true
+  navigate = true
+  features = catppuccin-mocha
+
+[merge]
+  conflictstyle = zdiff3
+
+[interactive]
+    diffFilter = delta --color-only
+
+[alias]
+  a = add
+  addp = add -p
+  amend = commit --amend
+  b = branch
+  c = commit
+  co = checkout
+  d = diff
+  ds = diff --staged
+  f = fetch
+  l = log
+  lo = log --oneline
+  s = status
+
+
+[difftool]
+    prompt = true
+[diff]
+    tool = nvimdiff
+[difftool "nvimdiff"]
+    cmd = "nvim -d \"$LOCAL\" \"$REMOTE\""
+
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+
+[ghq]
+	root = ~/Documents/GitHub
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

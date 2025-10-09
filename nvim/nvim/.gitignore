@@ -1,0 +1,14 @@
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
+.neoconf.json
+lazy-lock.json
+lazyvim.json
+LICENSE
+README.md
+stylua.toml
