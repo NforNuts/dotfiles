@@ -10,9 +10,9 @@ end)
 config.default_prog = { "/opt/homebrew/bin/zsh", "-l" }
 config.automatically_reload_config = true
 
-config.font = wezterm.font("Cascadia Code NF")
+-- config.font = wezterm.font("Cascadia Code NF")
 -- config.font = wezterm.font("0xProto Nerd Font Mono")
--- config.font = wezterm.font("UDEV Gothic 35NF")
+config.font = wezterm.font("UDEV Gothic 35NF")
 config.color_scheme = "catppuccin-mocha"
 
 config.window_decorations = "RESIZE"
@@ -56,7 +56,7 @@ config.window_frame = {
 	inactive_titlebar_fg = "none",
 }
 
-config.font_size = 14.5
+config.font_size = 16
 config.initial_rows = 69
 config.initial_cols = 109
 
