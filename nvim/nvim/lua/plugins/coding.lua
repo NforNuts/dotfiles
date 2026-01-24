@@ -339,6 +339,12 @@ return {
 		end,
 	},
 
+	{
+		"alexpasmantier/krust.nvim",
+		ft = "rust",
+		opts = {},
+	},
+
 	--=================
 	--   crates.nvim
 	--=================
