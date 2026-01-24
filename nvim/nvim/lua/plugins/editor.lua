@@ -231,6 +231,17 @@ return {
 					"Library",
 					"Applications",
 				},
+				sources = {
+					explorer = {
+						hidden = true,
+						auto_close = true,
+						layout = {
+							layout = {
+								position = "right",
+							},
+						},
+					},
+				},
 			},
 			explorer = { enabled = true },
 		},
