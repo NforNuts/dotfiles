@@ -153,7 +153,7 @@ return {
 	{
 		"stevearc/oil.nvim",
 
-		dependencies = { "mini.icons" },
+		dependencies = { "mini.icons", "malewicz1337/oil-git.nvim" },
 
 		opts = {
 			keymaps = {
