@@ -1,0 +1,60 @@
+[[snippets]]
+name = "ls"
+trigger = "ls"
+snippet = "eza --git --icons -F"
+
+[[snippets]]
+name = "l"
+trigger = "l"
+snippet = "eza --git --icons -F -lh"
+
+[[snippets]]
+name = "ll"
+trigger = "ll"
+snippet = "eza --git --icons -F -lh"
+
+[[snippets]]
+name = "la"
+trigger = "la"
+snippet = "eza --git --icons -F -lha"
+
+[[snippets]]
+name = "git"
+trigger = "g"
+snippet = "git"
+
+[[snippets]]
+name = "git status"
+trigger = "gs"
+snippet = "git status"
+
+[[snippets]]
+name = "git log --graph --oneline"
+trigger = "gl"
+snippet = "git log --graph --oneline"
+
+[[snippets]]
+name = "zi"
+trigger = "i"
+snippet = "zi"
+
+[[snippets]]
+name = "cat"
+trigger = "cat"
+snippet = "bat"
+
+[[snippets]]
+name = "yazi"
+trigger = "yz"
+snippet = "yazi"
+
+[[snippets]]
+name = "nvim"
+trigger = "v"
+snippet = "nvim"
+
+[[snippets]]
+name = "selfhosted"
+trigger = "sv"
+snippet = "NVIM_APPNAME=selfhosted nvim"
+
