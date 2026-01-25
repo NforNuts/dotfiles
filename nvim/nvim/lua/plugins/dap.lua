@@ -30,7 +30,7 @@ return {
       { "<leader>d",   "",                                                                                   desc = "+debug" },
       { "<leader>dB",  function() require("dap").set_breakpoint(vim.fn.input('Breakpoint condition: ')) end, desc = "Breakpoint Condition" },
       { "<F9>",        function() require("dap").toggle_breakpoint() end,                                    desc = "Toggle Breakpoint" },
-      { "<f29>",       function() require("dap").continue() end,                                             desc = "<C-F5> Run/Continue" },             -- <C-F5>
+      { "<f5>",       function() require("dap").continue() end,                                             desc = "<C-F5> Run/Continue" },
       { "<leader>da",  function() require("dap").continue({ before = get_args }) end,                        desc = "Run with Args" },
       { "<leader>dC",  function() require("dap").run_to_cursor() end,                                        desc = "Run to Cursor" },
       { "<leader>dg",  function() require("dap").goto_() end,                                                desc = "Go to Line (No Execute)" },
@@ -43,7 +43,7 @@ return {
       { "<leader>dP",  function() require("dap").pause() end,                                                desc = "Pause" },
       { "<leader>dr",  function() require("dap").repl.toggle() end,                                          desc = "Toggle REPL" },
       { "<leader>ds",  function() require("dap").session() end,                                              desc = "Session" },
-      { "<F41>",       function() require("dap").terminate() end,                                            desc = "<C-S-F5> Terminate" },              -- <C-S-F5>
+      { "<F29>",       function() require("dap").terminate() end,                                            desc = "<C-F5> Terminate" },              -- <C-F5>
       { "<leader>dw",  function() require("dap.ui.widgets").hover() end,                                     desc = "Widgets" },
 
       { "<leader>dPt", function() require('dap-python').test_method() end,                                   desc = "Debug Method",           ft = "python" },
