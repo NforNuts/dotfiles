@@ -41,7 +41,7 @@ return {
 			lint.linters_by_ft = {
 				python = { "ruff" },
 				javascript = { "biome_js" },
-				typescript = { "bioem_js" },
+				typescript = { "biome_js" },
 			}
 
 			lint.linters.biome_js = {
