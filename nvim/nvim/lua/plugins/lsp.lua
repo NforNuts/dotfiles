@@ -13,10 +13,15 @@ return {
 			ensure_installed = {
 				"basedpyright",
 				"bashls",
+				"biome",
 				"clangd",
+				"denols",
 				"gopls",
 				"lua_ls",
+				"neocmake",
+				"taplo",
 				"vtsls",
+				"vue_ls",
 			},
 		},
 
